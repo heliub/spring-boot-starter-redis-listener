@@ -1,0 +1,7 @@
+smile:
+  redis:
+    topics:
+      - test
+spring:
+  profiles:
+    active: redis

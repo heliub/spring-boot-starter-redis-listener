@@ -1,0 +1,14 @@
+# Redis属性配置
+spring:
+  redis:
+    # 集群模式，也可以配置其它模式
+    lettuce:
+      pool:
+        # 最大连接等待时间，单位毫秒
+        max-wait: 1
+    # 请求超时时间，单位毫秒
+    timeout: 500
+    # redis的密码，为空或不设置表示没有密码
+    password:
+    host: 192.168.5.133
+    port: 6379
